@@ -3,7 +3,7 @@ const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin'
 
 module.exports = {
   name: 'baseball',
-  mode: 'development',
+  mode: 'development',//production
   devtool: 'inline-source-map', // hidden-source-map
   resolve: {
     extensions: ['.jsx', '.js'],
