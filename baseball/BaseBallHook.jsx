@@ -4,6 +4,7 @@ import { useState} from "react";
 import Try from "./Try";
 
 function getNumber(){//숫자4개랜덤
+  console.log('hi')//입력할때계속실행되는이유는value값이 계속바뀌어서함수가실행됨.최적화로 따로해줘야함
   const candidate = [1,2,3,4,5,6,7,8,9];
   const array=[];
   for(let i=0;i<4;i++){
