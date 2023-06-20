@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+h1{
+  width: 100%;
+  height: 100vh;
+  color: blueviolet;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+::-webkit-scrollbar{
+  width: .7rem;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+  background-color: blueviolet;
+  border-radius: 3rem;
+}
