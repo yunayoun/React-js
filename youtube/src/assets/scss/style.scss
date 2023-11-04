@@ -9,3 +9,7 @@
 @import 'setting/common';
 
 // import 순서대로.변수를 정하고 리셋을 해야 읽을수 있음.
+
+// section
+@import "section/layout";
+@import "section/header";
